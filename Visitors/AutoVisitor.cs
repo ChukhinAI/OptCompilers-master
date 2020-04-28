@@ -16,6 +16,7 @@ namespace SimpleLang.Visitors
             binExpr.Left.Visit(this);
             binExpr.Right.Visit(this);
         }
+
         public override void VisitUnoExprNode(UnoExprNode unop)
         {
             unop.Expr.Visit(this);
@@ -49,8 +50,10 @@ namespace SimpleLang.Visitors
 
         public override void VisitIfNode(IfNode c)
         {
-            c.Condition.Visit(this);
-            c.Stat.Visit(this);
+            if (c.Condition != null)
+                c.Condition.Visit(this);
+            if(c.Stat != null)
+                c.Stat.Visit(this);
             if (c.ElseStat != null)
                 c.ElseStat.Visit(this);
         }

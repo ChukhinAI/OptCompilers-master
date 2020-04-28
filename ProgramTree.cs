@@ -15,6 +15,7 @@ namespace ProgramTree
 
     public abstract class Node // базовый класс для всех узлов    
     {
+        public Node Parent;
         public abstract void Visit(Visitor v);
     }
 
@@ -23,10 +24,10 @@ namespace ProgramTree
     }
 
 
-public abstract class BinOpNode : ExprNode
-{
+//public abstract class BinOpNode : ExprNode
+//{
 
-}
+//}
 
 public class IdNode : ExprNode
     {
@@ -37,6 +38,7 @@ public class IdNode : ExprNode
         {
             v.VisitIdNode(this);
         }
+        public override string ToString() => Name;
 }
 
     public class IntNumNode : ExprNode
@@ -48,6 +50,7 @@ public class IdNode : ExprNode
         {
             v.VisitIntNumNode(this);
         }
+        public override string ToString() => Num.ToString();
     }
 
     public class FloatNumNode : ExprNode
@@ -120,6 +123,7 @@ public class IdNode : ExprNode
         {
             v.VisitBinExprNode(this);
         }
+        public override string ToString() => Left + " " + OpType.ToString() + " " + Right;
     }
 
     public class UnoExprNode : ExprNode
@@ -136,6 +140,7 @@ public class IdNode : ExprNode
         {
             v.VisitUnoExprNode(this);
         }
+        public override string ToString() => "(" + OpType.ToString() + Expr + ")";
     }
 
     public class AssignNode : StatementNode
@@ -219,7 +224,7 @@ public class IdNode : ExprNode
         }
     }
 
-    /*
+    
     public class LabeledStatementNode : StatementNode
     {
         public int Label { get; set; }
@@ -229,8 +234,12 @@ public class IdNode : ExprNode
             Label = label;
             Stat = stat;
         }
+        public override void Visit(Visitor v)
+        {
+            v.VisitLabelNode(this);
+        }
     }
-    */
+    
 
     public class IfNode : StatementNode
     {

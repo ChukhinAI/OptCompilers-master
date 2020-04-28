@@ -3,9 +3,9 @@
 // (see accompanying GPPGcopyright.rtf)
 
 // GPPG version 1.3.6
-// Machine:  DESKTOP-0FGGHDS
-// DateTime: 3/24/2020 2:35:18 PM
-// UserName: annad
+// Machine:  ?????-??
+// DateTime: 07.04.2020 14:19:07
+// UserName: ?????
 // Input file <SimpleYacc.y>
 
 // options: no-lines gplex
@@ -418,8 +418,7 @@ public class Parser: ShiftReduceParser<ValueType, LexLocation>
 { CurrentSemanticValue.stVal = new GotoNode(ValueStack[ValueStack.Depth-1].iVal); }
         break;
       case 52: // labeled_statement -> INUM, COLON, statement
-                    { //CurrentSemanticValue.stVal = new LabeledStatementNode(ValueStack[ValueStack.Depth-3].iVal, ValueStack[ValueStack.Depth-1].stVal); }
-                    }
+{ CurrentSemanticValue.stVal = new LabeledStatementNode(ValueStack[ValueStack.Depth-3].iVal, ValueStack[ValueStack.Depth-1].stVal); }
         break;
       case 53: // if -> IF, expr, block
 { CurrentSemanticValue.stVal = new IfNode(ValueStack[ValueStack.Depth-2].eVal, ValueStack[ValueStack.Depth-1].blVal); }

@@ -1,45 +1,11 @@
 {
-  bool bb, cc;
-  b = 2;
-  a = 3;
-  a = b;
-
-  for i = 3 .. 5
-  {
-    if i != i
-    {
-     write(i);
-     while i < b
-      {
-       write(b);
-       while b > i
-        {
-         for b = 2 .. 4
-         {
-          write(i);
-         }
-         a = 1;
-        }
-      }
-    }
-
-    write(i);
-    a = c;
-    c = 1;
-  }
-
-  while a < b
-  {
-    read(z);
-    a = a + 1;
-    writeln(z, a);
-    write(a);
-  }
+  b = a + 1;
+  a = 5;
   
-  if a != b | a == 5
-  {
-    a = 3;
-    a = 2;
-  }
-  a = 123;
+  c = b;
+  f = a;
+  a = 6;
+  f = a;
+  e = g;
+  h = e;
 }

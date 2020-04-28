@@ -21,6 +21,7 @@ namespace SimpleLang.Visitors
         public virtual void VisitForNode(ForNode f) { }
         public virtual void VisitWhileNode(WhileNode w) { }
         public virtual void VisitGotoNode(GotoNode gt) { }
+        public virtual void VisitLabelNode(LabeledStatementNode gt) { }       
         public virtual void VisitIfNode(IfNode i) { }
         public virtual void VisitReadNode(ReadNode w) { }
         public virtual void VisitBlockNode(BlockNode bl) { }

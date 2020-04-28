@@ -60,7 +60,7 @@ BOOLVAL	"true"|"false"
 ")" { return (int)Tokens.RBRACKET; }
 ":" { return (int)Tokens.COLON; }
 
-[^ \r\n] {
+[^ \r\n\t] {
 	LexError();
 }
 

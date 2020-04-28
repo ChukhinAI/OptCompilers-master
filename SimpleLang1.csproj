@@ -44,18 +44,31 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
+    <Compile Include="Optimizators\CopyAndConstantsOptimizer.cs" />
     <Compile Include="ParserHelper.cs" />
     <Compile Include="ProgramTree.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ShiftReduceParserCode.cs" />
     <Compile Include="SimpleLex.cs" />
     <Compile Include="SimpleYacc.cs" />
+    <Compile Include="TACode\TacNodes\TacAssignmentNode.cs" />
+    <Compile Include="TACode\TacNodes\TacEmptyNode.cs" />
+    <Compile Include="TACode\TacNodes\TacGotoNode.cs" />
+    <Compile Include="TACode\TacNodes\TacIfGotoNode.cs" />
+    <Compile Include="TACode\TacNodes\TacNode.cs" />
+    <Compile Include="TACode\ThreeAddressCode.cs" />
+    <Compile Include="TACode\TmpNameManager.cs" />
+    <Compile Include="Visitors\AlwaysIfOrElseVisitor.cs" />
     <Compile Include="Visitors\AssighCountVisitor.cs" />
     <Compile Include="Visitors\AutoVisitor.cs" />
+    <Compile Include="Visitors\ChangeVisitor.cs" />
+    <Compile Include="Visitors\FillParentVisitor.cs" />
     <Compile Include="Visitors\MaxDeepVisitor.cs" />
     <Compile Include="Visitors\MaxOpExprVisitor.cs" />
+    <Compile Include="Visitors\NumberEqualityVisitor.cs" />
     <Compile Include="Visitors\OperatorCountVisitor.cs" />
     <Compile Include="Visitors\PrettyPrintVIsitor.cs" />
+    <Compile Include="Visitors\ThreeAddressCodeVisitor.cs" />
     <Compile Include="Visitors\Visitor.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="SimpleYacc.y" />
+    <None Include="TACode\README.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

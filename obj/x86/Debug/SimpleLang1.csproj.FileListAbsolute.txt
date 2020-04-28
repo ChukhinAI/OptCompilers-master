@@ -1,0 +1,22 @@
+C:\Users\Андрей\Desktop\компиляторы\v_2.0\OptCompilers-master\OptCompilers-master\obj\x86\Debug\SimpleLang1.csprojAssemblyReference.cache
+C:\Users\Андрей\Desktop\компиляторы\v_2.0\OptCompilers-master\OptCompilers-master\bin\Debug\SimpleLang.exe
+C:\Users\Андрей\Desktop\компиляторы\v_2.0\OptCompilers-master\OptCompilers-master\bin\Debug\SimpleLang.pdb
+C:\Users\Андрей\Desktop\компиляторы\v_2.0\OptCompilers-master\OptCompilers-master\obj\x86\Debug\SimpleLang.exe
+C:\Users\Андрей\Desktop\компиляторы\v_2.0\OptCompilers-master\OptCompilers-master\obj\x86\Debug\SimpleLang.pdb
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\bin\Debug\SimpleLang.exe
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\bin\Debug\SimpleLang.pdb
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\obj\x86\Debug\SimpleLang1.csprojAssemblyReference.cache
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\obj\x86\Debug\SimpleLang1.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\obj\x86\Debug\SimpleLang.exe
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters\OptCompilers-master\obj\x86\Debug\SimpleLang.pdb
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\obj\x86\Debug\SimpleLang1.csprojAssemblyReference.cache
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\obj\x86\Debug\SimpleLang1.csproj.CoreCompileInputs.cache
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\obj\x86\Debug\SimpleLang.exe
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\obj\x86\Debug\SimpleLang.pdb
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\bin\Debug\SimpleLang.exe
+C:\Users\Роман\Desktop\всякая важная фигня\учеба\1 курс мага\2 семестр\mihalko\visiters and others\bin\Debug\SimpleLang.pdb
+C:\Users\Андрей\Desktop\компиляторы\v_4.0_4_addres+first_optimizations\visiters and others\bin\Debug\SimpleLang.exe
+C:\Users\Андрей\Desktop\компиляторы\v_4.0_4_addres+first_optimizations\visiters and others\bin\Debug\SimpleLang.pdb
+C:\Users\Андрей\Desktop\компиляторы\v_4.0_4_addres+first_optimizations\visiters and others\obj\x86\Debug\SimpleLang1.csprojAssemblyReference.cache
+C:\Users\Андрей\Desktop\компиляторы\v_4.0_4_addres+first_optimizations\visiters and others\obj\x86\Debug\SimpleLang.exe
+C:\Users\Андрей\Desktop\компиляторы\v_4.0_4_addres+first_optimizations\visiters and others\obj\x86\Debug\SimpleLang.pdb
